@@ -1,6 +1,6 @@
-# Hello, 这是我的个人笔记
+# Hello, 这是我的个人知识库
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+For full documentation
 
 ## Commands
 
@@ -11,13 +11,13 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    docs/				# build生成站点文件
+    	...
+    	index.html
+    	
+    project/			# mkdocs的工程目录
+    	mkdocs.yml   	# 配置文件
+    	docs/			# md文件目录
+    
+    readme.md
 
-
-
-## yuhang 
-
-diyi 

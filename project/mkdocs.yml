@@ -18,11 +18,35 @@ theme:
         name: Switch to light mode
   
   features:
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.sections
-    - navigation.expand
-    - navigation.top
+    # - navigation.expand
+    # - navigation.top
     # - navigation.tabs.sticky
+
+nav:
+    - Overview: index.md
+
+    - Java: 
+        - 'test.md'
+
+    - 数据库:
+        # - 'Writing your docs': 'test.md'
+        - 'test.md'
+
+    - 运维:
+        - 'test.md'
+        # - 'Release Notes': 'release-notes.md'
+
+    - 计算机基础:
+        - 'test.md'
+
+    - 大数据/云原生:
+        - 'test.md'
+
+    - 设计模式:
+        - 'test.md'
+
 
 repo_url: https://github.com/jackyar/jackyar.github.io
 repo_name: GitHub Address
