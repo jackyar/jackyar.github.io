@@ -76,7 +76,7 @@ DNS2=114.114.114.114
 
 `systemctl restart network`
 
-
+`brctl show` 查看网桥
 
 ### 虚拟机相关操作
 

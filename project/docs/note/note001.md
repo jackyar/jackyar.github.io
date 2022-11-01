@@ -116,6 +116,13 @@ SELinux 工作模式可以在 /etc/selinux/config 中设定。
 getenforce                 ##也可以用这个命令检查
 ```
 
+- linux挂载samba共享目录
+
+```shell
+yum install -y cifs-utils
+mount.cifs //172.16.6.103/yanyh /mnt/yanyh -o username=root,password=catserver
+```
+
 
 
 ### 修改软件源
